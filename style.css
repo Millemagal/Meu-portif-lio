@@ -67,3 +67,20 @@ input, textarea {
 .dark .card {
   background: #1e1e1e;
 }
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+  
+
+
+
+
+
+
+
+
+
