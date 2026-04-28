@@ -80,6 +80,37 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  height: 200px; 
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+footer img {
+  max-height: 100%;
+}
+
+.titulo {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: 0; 
+}
+
+section {
+
+  flex: 1;
+
+}
+
+main {
+
+  display: flex;
+  gap: 20px;
 }
 
 
