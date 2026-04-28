@@ -74,9 +74,13 @@ img {
   object-fit: cover;
 
 }
-  
 
-
+footer { 
+  background: #824104;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
 
 
 
