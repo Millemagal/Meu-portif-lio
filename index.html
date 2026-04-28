@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Camille</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Camille Magalhães</h1>
+  <p>Desenvolvedora em formação</p>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<main>
+
+<section id="sobre">
+  <h2>Sobre mim</h2>
+  <p>Me chamo Camille Magalhães Ribeiro da Silva Oliveira, tenho 16 anos, atualmente estudo na ETE Porto Digital , amo jogar vôlei, andar de moto e após o término do ensino médio pretendo entrar na Aeronáutica.</p>
+</section>
+
+<section id="habilidades">
+  <h2>Habilidades</h2>
+  <ul>
+    <li>Cozinhar</li>
+    <li>Dançar</li>
+    <li>Pilotar moto</li>
+    <li>Cuidar de crianças</li>
+  </ul>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+
+  <div class="cards">
+    <article class="card">
+      <h3>Sofia AI</h3>
+      <p>Um projeto de AI que foi elaborado por bolsistas da Softex.</p>
+    </article>
+
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+
+  <form onsubmit="return validarFormulario()">
+    <input type="text" id="nome" placeholder="Seu nome">
+    <input type="email" id="email" placeholder="Seu email">
+    <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 - Camille</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
