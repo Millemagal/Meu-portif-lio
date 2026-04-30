@@ -57,7 +57,7 @@ input, textarea {
 /* DARK MODE */
 .dark {
   background: #121212;
-  color: white;
+  color: orange;
 }
 
 .dark header {
